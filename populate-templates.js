@@ -45,6 +45,6 @@ function populateTemplateFile(filename, variables) {
   console.log(`${filename} updated!`);
 }
 
-populateTemplateFile('.mocharc.json', variables);
+populateTemplateFile('.mocharc.yaml', variables);
 populateTemplateFile('package.json', variables);
 populateTemplateFile('respecConfig.json', variables);
