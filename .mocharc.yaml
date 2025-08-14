@@ -1,4 +1,4 @@
-reporter: "@digitalbazaar/mocha-w3c-interop-reporter"
+reporter: "mocha-w3c-interop-reporter"
 reporterOptions:
   - 'title=${title}'
   - 'abstract=./abstract.hbs'

@@ -5,7 +5,7 @@
  */
 import * as chai from 'chai';
 import {filterByTag} from 'vc-test-suite-implementations';
-import {helpers} from '@digitalbazaar/mocha-w3c-interop-reporter';
+import {helpers} from 'mocha-w3c-interop-reporter';
 
 const should = chai.should();
 

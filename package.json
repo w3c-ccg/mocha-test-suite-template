@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha tests/ --timeout 15000",
-    "test:withparams": "mocha tests/ --timeout 15000 --reporter @digitalbazaar/mocha-w3c-interop-reporter --reporter-options title=\"Template Test Suite\",abstract=./abstract.hbs,reportDir=./reports,respec=./respecConfig.json,suiteLog=./suite.log,templateData=./reports/index.json",
+    "test:withparams": "mocha tests/ --timeout 15000 --reporter mocha-w3c-interop-reporter --reporter-options title=\"Template Test Suite\",abstract=./abstract.hbs,reportDir=./reports,respec=./respecConfig.json,suiteLog=./suite.log,templateData=./reports/index.json",
     "lint": "eslint ."
   },
   "repository": {
@@ -27,7 +27,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@digitalbazaar/mocha-w3c-interop-reporter": "^1.10.0",
+    "mocha-w3c-interop-reporter": "github:digitalbazaar/mocha-w3c-interop-reporter#v1.11.0",
     "chai": "^5.2.1",
     "mocha": "11.7.0",
     "vc-test-suite-implementations": "github:w3c/vc-test-suite-implementations"
