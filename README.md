@@ -8,7 +8,7 @@
 > ```
 >
 > The contents below should be updated by hand to match the tests once they are
-> written.
+> written. This warning should also be removed.
 
 # ${title} Test Suite
 

@@ -48,3 +48,9 @@ function populateTemplateFile(filename, variables) {
 populateTemplateFile('.mocharc.yaml', variables);
 populateTemplateFile('package.json', variables);
 populateTemplateFile('respecConfig.json', variables);
+
+console.log(`
+You should now...
+ ☐  update the README.md file,
+ ☐  remove populate-templates.js,
+ ☐  and commit package-lock.json.`);
