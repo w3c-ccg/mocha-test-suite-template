@@ -10,5 +10,12 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
+  },
+  rules: {
+    'max-len': ['error', {
+      code: 80,
+      ignoreUrls: true,
+      ignoreTemplateLiterals: true
+    }]
   }
 };
