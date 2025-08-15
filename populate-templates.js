@@ -46,11 +46,13 @@ function populateTemplateFile(filename, variables) {
 }
 
 populateTemplateFile('.mocharc.yaml', variables);
+populateTemplateFile('abstract.hbs', variables);
 populateTemplateFile('package.json', variables);
 populateTemplateFile('respecConfig.json', variables);
 
 console.log(`
 You should now...
  ☐  update the README.md file,
+ ☐  edit the abstract.hbs file as needed,
  ☐  remove populate-templates.js,
  ☐  and commit package-lock.json.`);
